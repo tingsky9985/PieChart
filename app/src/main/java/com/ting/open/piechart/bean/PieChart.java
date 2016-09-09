@@ -16,7 +16,7 @@ public class PieChart {
 
     //程序中需要的值
     private int color;//颜色
-    private int angle;//角度
+    private float angle;//角度
 
     public PieChart(String name, float value) {
         this.name = name;
@@ -59,7 +59,7 @@ public class PieChart {
         return angle;
     }
 
-    public void setAngle(int angle) {
+    public void setAngle(float angle) {
         this.angle = angle;
     }
 }

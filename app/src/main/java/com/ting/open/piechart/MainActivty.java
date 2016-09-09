@@ -3,6 +3,8 @@ package com.ting.open.piechart;
 import android.app.Activity;
 import android.os.Bundle;
 
+import com.ting.open.piechart.view.PieChartView;
+
 /**
  * Created by lt on 2016/9/8.
  */
@@ -23,6 +25,10 @@ public class MainActivty extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        //setContentView(R.layout.activty_main);
+
+        PieChartView pieChart = new PieChartView(MainActivty.this);
+
+
     }
 }
